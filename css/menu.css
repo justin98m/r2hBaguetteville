@@ -1,0 +1,27 @@
+body{
+  background-color: #e39a26;
+}
+#menu{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/*item descriptor text*/
+#pizza,#steak,#jalepeno{
+  border: solid white;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+p{
+  /*positioning text in center of container */
+  text-align: center;
+  width: 80%;
+  /*styling text to look pretty*/
+  font-size: 20px;
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+  
+}

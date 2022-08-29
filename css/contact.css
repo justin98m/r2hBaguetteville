@@ -1,0 +1,54 @@
+body{
+  background-color: #e39a26;
+}
+#Contact{
+  display: flex;
+  flex-flow: column;
+  align-items: center; 
+  margin-bottom: 40px;
+}
+/*contact title */
+h2{
+  font-size: 45px;
+  margin-top: 40px;
+}
+form{
+  display: flex;
+  flex-flow: column;
+  border: solid red;
+  width: 95%;
+  text-align:center;
+  
+}
+#name{
+  margin-bottom: 40px;
+}
+#phoneFormat{
+  margin-left: 30%;
+  color: white;
+  font-weight: bold;
+}
+#messageLabel{
+  text-decoration: underline;
+}
+#message{
+  font-size: 15px;
+}
+.textbox{
+  height: 40px;
+  width: 500px;
+  font-size: 15px;
+  
+}
+label{
+  font-size: 18px;
+  font-family: 'Delius', cursive;
+  color:white;
+  font-weight: bold;
+}
+#submit{
+  width: 100px;
+  height: 50px;
+  margin-left: 45%;
+  margin-top: 10px;
+}

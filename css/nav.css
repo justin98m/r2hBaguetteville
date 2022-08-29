@@ -1,0 +1,55 @@
+/*Remove default setting for the following*/
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: 0;
+}
+#navContainer{
+  height: 110px;
+  /*organize nav elements horizontally with flex */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f16136;
+}
+#brandContainer{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+#baguetteville{
+  font-family: Dancing Script, cursive;
+  font-size: 40px;
+  color: white;
+  padding-top: 6%;
+  margin-left: 10px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+/*Removes underline*/
+a{
+  text-decoration: none;
+}
+.inactive{
+  color: white;
+}
+.active{
+  color:blue;
+}
+a:hover{
+  color: blue;
+}
+li{
+  font-size: 35px;
+  font-family: 'Delius', cursive;
+  margin-left: 10px;
+}
+.pageLink{
+  border: solid blue;
+}

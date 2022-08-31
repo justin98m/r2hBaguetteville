@@ -1,7 +1,7 @@
 body{
   background-color: #e39a26;
 }
-#Contact{
+#contactContainer{
   display: flex;
   flex-flow: column;
   align-items: center; 
@@ -25,7 +25,7 @@ form{
 }
 #phoneFormat{
   margin-left: 30%;
-  color: white;
+  color: #0600B8;
   font-weight: bold;
 }
 #messageLabel{
@@ -43,7 +43,7 @@ form{
 label{
   font-size: 18px;
   font-family: 'Delius', cursive;
-  color:white;
+  color:#0600B8;
   font-weight: bold;
 }
 #submit{

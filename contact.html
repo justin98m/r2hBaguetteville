@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -18,52 +18,50 @@
 </head>
 
 <body>
-  <nav>
-    <div id="navContainer">
-      <div id="brandContainer">
+  <nav id="navContainer">
+      <section id="brandContainer">
        <img id="logo" src="./media/logo.jpg" alt="Man riding bicicle carrying baguettes">
        <p id="baguetteville">Baguetteville</p>
-      </div>
-      <div id="linkContainer">
+      </section>
+      <section id="linkContainer">
         <ul>
             <li class="pageLink"><a class="inactive" href="index.html">Home</a></li>
             <li class="pageLink"> <a class="inactive" href="menu.html">Menu</a></li>
             <li class="pageLink"><a class="active" href="contact.html">Contact</a></li>
         </ul>
-    </div>
-    </div>
+      </section>
   </nav>
-  <div id="Contact">
-    <h2>Contact</h2>
-    <form id="contactForm" action="index.html" method="GET">
-      <div id="name">
-        <label for="fname">First Name:</label>
-        <input class="textbox" type="text" name="fname" required placeholder="First Name Here">
-        <label for="lname">Last Name: </label>
-        <input class="textbox" type="text" name="lname" required placeholder="Last Name Here">
-      </div>
-      <div id="contact">
-        <label for="email">Email: </label>
-        <input class="textbox" type="email" name="email" required placeholder="email@something.com">
-        <label for="Phone Number">   Phone:     </label>
-        <input class="textbox" type="tel" name="phone" placeholder="123-456-7890" required
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-      </div>
-      <p id="phoneFormat">Phone Number Format : 123-456-7890</p>
-      <div id="messageContainer">
-        <label id="messageLabel" for="message">Message</label><br>
-        <textarea required id="message" rows="15" cols="100" name="message">
-          Baguetteville is so Great Because ...
-        </textarea>
-    </div>
-      <input id="submit" type="submit" name="submit" value="Submit Form">
-    </form>
-  </div>
-  <footer>
-    <div id="footerContainer">
+    <main id="contactContainer">
+      <h2>Contact</h2>
+      <form id="contactForm" action="index.html" method="GET">
+        <section id="name">
+          <label for="fname">First Name:</label>
+          <input id="fname" class="textbox" type="text" name="fname" required placeholder="First Name Here">
+          <label for="lname">Last Name: </label>
+          <input id="lname" class="textbox" type="text" name="lname" required placeholder="Last Name Here">
+        </section>
+        <section id="contact">
+          <label for="email">Email: </label>
+          <input id="email" class="textbox" type="email" name="email" required placeholder="email@something.com">
+          <label for="phone">   Phone:     </label>
+          <input id="phone" class="textbox" type="tel" name="phone" placeholder="123-456-7890" required
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </section>
+        <p id="phoneFormat">Phone Number Format : 123-456-7890</p>
+        <section id="messageContainer">
+          <label id="messageLabel" for="message">Message</label><br>
+          <textarea required id="message" rows="15" cols="100" name="message">
+            Baguetteville is so Great Because ...
+          </textarea>
+        </section>
+        <input id="submit" type="submit" name="submit" value="Submit Form">
+      </form>
+    </main>
+  
+  <footer id="footerContainer">
       <img src="./media/award.png" alt="2021 City's best award symbol">
       <img src="./media/logo.jpg" alt="Man riding bicicle carrying baguettes">
-      <div id="socialMedia">
+      <section id="socialMedia">
         <a target="_blank" href="https://twitter.com/">
           <img class="social" src="./media/twitter.png" alt="Twitter">
         </a>
@@ -75,8 +73,7 @@
         <a target="_blank"  href ="https://www.instagram.com/">
           <img class="social" id="insta" src="./media/insta.png" alt="Instagram">
         </a>
-      </div>
-    </div>
+      </section>
   </footer>
 </body>
 

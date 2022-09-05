@@ -21,7 +21,10 @@ p{
   width: 80%;
   /*styling text to look pretty*/
   font-size: 20px;
-  color: white;
+  color:#0600B8;
   font-family: 'Patrick Hand', cursive;
-  
+
+}
+.price{
+  color: #06370E
 }
